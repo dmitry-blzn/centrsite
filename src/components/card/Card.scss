@@ -1,0 +1,42 @@
+.card{
+   height: 266px;
+   width: 489px;
+   border-radius: 10px;
+   transition: background-size 4s ease;
+   transition-delay: background-size 2s;
+   background-position: center;
+}
+
+.card:hover{
+    background-size: 107%;
+    transition:all 0.5s ;
+}
+
+.card__shell{
+    padding-top: 24px;
+}
+
+.card__title{
+    height: 22px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15.6px;
+    padding-top: 3px;
+    padding-left: 24px;
+
+    background-image: url('../../images/flag.png');
+    background-repeat: no-repeat;
+}
+
+.card__text{
+    margin-top: 103px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
