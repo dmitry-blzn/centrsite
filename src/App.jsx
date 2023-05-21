@@ -16,6 +16,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
 		<Routes>
+      <Route path="/PatriotCenter" element={<Main/>}/>
 			<Route path="/" element={<Main/>}/>
 			<Route path="/events" element={<Events/>}/>
 			<Route path="/about" element={<AboutPages/>}/>
