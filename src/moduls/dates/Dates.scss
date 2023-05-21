@@ -54,3 +54,21 @@
 .card{
     margin: 10px;
 }
+
+.dates__column-cards-adaptive{
+    display: none;
+}
+
+@media(max-width: 500px){
+    .dates__column-cards{
+        display: none;
+    }
+
+    .dates__column-button{
+        display: none;
+    }
+
+    .dates__column-cards-adaptive{
+        display: flex;
+    }
+}

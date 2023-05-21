@@ -44,6 +44,36 @@ function Header() {
 
                 </div>
             </div>
+            <div className="header__row-adaptive">
+                <div className="header__row-logo-adaptive">
+
+                    <div className="header__row-logo-image-adaptive">
+                        <img src={require('../../images/mini-logo.png')} alt="" />
+                    </div>
+
+                    <div className="header__row-logo-text-adaptive">
+                        «Центр гражданско-
+                        <p>патриотического воспитания</p> 
+                        <p>обучающихся НИУ «БелГУ»</p> 
+                    </div>
+
+                </div>
+                <div className="header__row-actions-adaptive">
+
+                    <div className="header__row-actions-search">
+
+                        <div className="header__row-actions-search-icon">
+                            <img src={require('../../images/search.png')} alt="" />
+                        </div>
+
+                    </div>
+
+                    <div className="header__row-actions-menu">
+                        <img src={require('../../images/open-burger.png')} alt="" />
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
   )

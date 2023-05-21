@@ -10,6 +10,7 @@
 
 .footer__row{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -19,6 +20,7 @@
 
 .footer__row-column1{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .footer__row-column1-logo{
@@ -87,6 +89,7 @@
 
 .footer__row-column2{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .footer__row-column2-contacts{

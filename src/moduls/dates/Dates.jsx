@@ -1,6 +1,7 @@
 import React from 'react'
 import './Dates.scss'
 import { Card } from '../../components/card/Card'
+import { AdaptiveCard } from '../../components/adaptivecard/AdaptiveCard'
 
 function Dates() {
   return (
@@ -19,6 +20,10 @@ function Dates() {
             </div>
             <div className="dates__column-button">
                 <button className='dates__column-button-b'>Показать ещё</button>
+            </div>
+
+            <div className="dates__column-cards-adaptive">
+                <AdaptiveCard className='card' image={require('../../images/adaptive/adaptiveData.png')} title='Статья' width='489px' height='266px' text='5 Мая 1942 года – начало сооружения Ладожского трубопровода'/>
             </div>
         </div>
         

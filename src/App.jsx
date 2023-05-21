@@ -16,7 +16,6 @@ function App() {
     <div className="App">
       <BrowserRouter basename="/PatriotCenter">
         <Routes>
-          
           <Route path="/" element={<Main/>}/>
           <Route path="/events" element={<Events/>}/>
           <Route path="/about" element={<AboutPages/>}/>
