@@ -1,0 +1,139 @@
+.galery{
+    margin-top: 60px;
+}
+
+.galery__column{
+    display: flex;
+    flex-direction: column;
+}
+
+.galery__column-title{
+    color: #1F1F1F;
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.galery__column-images{
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.galery__column-images-image{
+    margin: 20px;
+    margin-left: 0;
+}
+
+.galery__column-selector{
+    align-self: center;
+    margin-right: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.galerypoint{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.galerypoint1{
+    margin-left: 32px;
+}
+
+.galerypoint8{
+    margin-right: 32px;
+}
+
+.galery__column-selector-back{
+    height: 32px;
+    width: 32px;
+    border-radius: 50px;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding-top: 8.5px;
+    padding-right: 2px;
+}
+
+.galery__column-selector-back:hover{
+    background-color: #BB050F;
+    .default{
+        display: none;
+    }
+    .white{
+        display:inline;
+    }
+}
+
+.galery__column-selector-right{
+    height: 32px;
+    width: 32px;
+    border-radius: 50px;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 2px;
+}
+
+.galery__column-selector-right:hover{
+    background-color: #BB050F;
+    .default{
+        display: none;
+    }
+    .white{
+        display:inline;
+    }
+}
+
+.default{
+    
+}
+
+.white{
+    display: none;
+}
+
+.galery__column-separator{
+    width: 1252px;
+    border: 1px solid #8A8A8A;
+    margin-top: 48px;
+}
+
+.galery__column-info{
+    
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    &-watches{
+        display: flex;
+        align-items: center;
+
+        p{
+            margin-left: 9px;
+        }
+    }
+
+    &-comments{
+        display: flex;
+        align-items: center;
+        margin-left: 24px;
+
+        p{
+            margin-left: 9px;
+        }
+    }
+
+    &-date{
+        margin-left: 1050px;
+    }
+}

@@ -1,0 +1,14 @@
+.bigeventcard{
+    width: 489px;
+    height: 266px;
+    border-radius: 10px;
+    transition: background-size 4s ease;
+    transition-delay: background-size 2s;
+    background-position: center;
+    margin: 10px;
+}
+ 
+ .bigeventcard:hover{
+     background-size: 107%;
+     transition:all 0.5s ;
+ }

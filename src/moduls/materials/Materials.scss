@@ -1,0 +1,54 @@
+.materials{
+    
+    margin-left: 334px;
+    margin-top: 60px;
+}
+
+.materials__column{
+    display: flex;
+    flex-direction: column;
+}
+
+.materials__column-head{
+    width: 1535px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.materials__column-head-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.materials__column-head-arrows{
+    margin-top: 5px;
+    display: flex;
+    margin-right: 20px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #8A8A8A;
+}
+
+.materials__column-cards{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.eventcard{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

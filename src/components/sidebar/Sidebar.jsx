@@ -1,5 +1,6 @@
 import React from 'react'
 import './Sidebar.scss'
+import { Link } from 'react-router-dom'
 
 function Sidebar() {
   return (
@@ -14,7 +15,7 @@ function Sidebar() {
                     <img src={require('../../images/sidebar/red/main.png')} alt="" />
                 </div>
                 <div className="sidebar__row-main-text text">
-                    Главная
+                    <Link className='sidebar__row-main-text1 text1' to={'/'}>Главная</Link> 
                 </div>
             </div>
 
@@ -26,7 +27,7 @@ function Sidebar() {
                     <img src={require('../../images/sidebar/red/about.png')} alt="" />
                 </div>
                 <div className="sidebar__row-about-text text">
-                    О Центре
+                    <Link className='sidebar__row-main-text1 text1' to={'/about'}>О Центре</Link>
                 </div>
             </div>
 
@@ -38,7 +39,7 @@ function Sidebar() {
                     <img src={require('../../images/sidebar/red/notify.png')} alt="" />
                 </div>
                 <div className="sidebar__row-notify-text text">
-                    Объявления
+                    <Link className='sidebar__row-main-text1 text1' to={'/news'}>Объявления</Link>
                 </div>
             </div>
 
@@ -62,7 +63,7 @@ function Sidebar() {
                     <img src={require('../../images/sidebar/red/events.png')} alt="" />
                 </div>
                 <div className="sidebar__row-events-text text">
-                    События
+                    <Link className='sidebar__row-main-text1 text1' to={'/events'}>События</Link> 
                 </div>
             </div>
 

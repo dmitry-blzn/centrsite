@@ -1,0 +1,54 @@
+.card__title-event{
+    height: 22px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15.6px;
+    padding-top: 3px;
+    padding-left: 12px;
+
+    background-image: url('../../images/flag.png');
+    background-repeat: no-repeat;
+}
+
+.eventcard{
+    border-radius: 10px;
+    transition: background-size 4s ease;
+    transition-delay: background-size 2s;
+    background-position: center;
+    width: '362px';
+    height: '206px';
+}
+
+.card__info{
+    margin-top: 90px;
+    margin-left: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card__info-date{
+    color: #F5F5F5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.2px;
+}
+
+.card__info-separator{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 80px;
+    height: 0px;
+    border: 1px solid #BB050F;
+}
+
+.card__info-title{
+    color: #F5F5F5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
