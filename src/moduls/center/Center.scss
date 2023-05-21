@@ -81,6 +81,11 @@
     margin-bottom: 12px;
 }
 
+.title-about-text:nth-child(10){
+    margin-top: 60px;
+    margin-bottom: 12px;
+}
+
 .about__column-image{
     align-self: flex-start;
     color: #8A8A8A;
@@ -115,4 +120,10 @@
 
 li::marker {
   content: url('../../images/task.png');
+}
+
+.task:last-child{
+    padding-left: 10px;
+    margin-top: 16px;
+    margin-bottom: 28px;
 }
