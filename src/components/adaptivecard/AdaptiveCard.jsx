@@ -8,7 +8,7 @@ function AdaptiveCard(props) {
     let flag = require('../../images/flag.png')
 
   return (
-    <div className='card' style={{backgroundImage: `url(${image})`, backgroundRepeat: 'no-repeat', width: '280px', height: '400px'}}>
+    <div className='card-adaptive' style={{backgroundImage: `url(${image})`, backgroundRepeat: 'no-repeat'}}>
         
         <div className="card__shell">
             <div className="card__title">

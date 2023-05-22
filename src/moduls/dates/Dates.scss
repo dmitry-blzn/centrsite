@@ -60,11 +60,16 @@
 }
 
 .card{
+    min-width: 280px;
     margin: 10px;
+    scroll-snap-align: center;
 }
 
 .dates__column-cards-adaptive{
     display: none;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    max-width: 320px;
 }
 
 @media(max-width: 500px){
@@ -78,5 +83,16 @@
 
     .dates__column-cards-adaptive{
         display: flex;
+        margin-top: 20px;
+    }
+
+    .dates__column-title{
+        color: #1F1F1F;
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: left;
     }
 }

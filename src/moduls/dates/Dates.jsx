@@ -24,6 +24,11 @@ function Dates() {
 
             <div className="dates__column-cards-adaptive">
                 <AdaptiveCard className='card' image={require('../../images/adaptive/adaptiveData.png')} title='Статья' width='489px' height='266px' text='5 Мая 1942 года – начало сооружения Ладожского трубопровода'/>
+                <AdaptiveCard className='card' image={require('../../images/adaptive/adaptiveData.png')} title='Статья' width='489px' height='266px' text='День Победы!'/>
+                <AdaptiveCard className='card' image={require('../../images/adaptive/adaptiveData.png')} title='Статья' width='489px' height='266px' text='9 Мая 1944 года – Освобождение Севастополя'/>
+                <AdaptiveCard className='card' image={require('../../images/adaptive/adaptiveData.png')} title='Статья' width='489px' height='266px' text='Подвиг партизанского разведчика Марата Казея'/>
+                <AdaptiveCard className='card' image={require('../../images/adaptive/adaptiveData.png')} title='Статья' width='489px' height='266px' text='11 Мая 1945 года – Завершилась пражская операция'/>
+                <AdaptiveCard className='card' image={require('../../images/adaptive/adaptiveData.png')} title='Статья' width='489px' height='266px' text='12 Мая 1944 года – Завершилась Крымская наступательная операция.'/>
             </div>
         </div>
         

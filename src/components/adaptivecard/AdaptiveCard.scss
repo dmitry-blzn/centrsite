@@ -8,3 +8,16 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.card-adaptive{
+    min-width: 280px;
+    height: 400px;
+    border-radius: 10px;
+    transition: background-size 4s ease;
+    transition-delay: background-size 2s;
+    background-position: center;
+    margin: 10px;
+}
+ 
+
+
