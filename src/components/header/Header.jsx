@@ -1,10 +1,13 @@
 import React from 'react'
 import './Header.scss'
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 function Header(props) {
 
     const {setMenu = Function.prototype} = props;
+
+    const [search, setSearch] = useState(false)
 
   return (
     <div className='header'>
@@ -32,9 +35,20 @@ function Header(props) {
 
                     <div className="header__row-actions-search">
 
-                        <div className="header__row-actions-search-icon">
+                        <div className="header__row-actions-search-icon" onClick={() => setSearch(true)}>
                             <img src={require('../../images/search.png')} alt="" />
                         </div>
+
+                        { search &&
+                        <>
+                            <div className="header__row-actions-search-line">
+                                <input className='search' type="text" />
+                            </div>
+                            <div className="header__row-actions-search-closeline" onClick={() => setSearch(false)}>
+                                <img src={require('../../images/adaptive/burger-open.png')} alt="" />
+                            </div>
+                        </>
+                        }
 
                         <div className="header__row-actions-search-text">
                             Поиск

@@ -1,8 +1,11 @@
 import React from 'react'
 import './Main.scss'
+
+//подключение управления состояниями и отслеживания жизненного цикла компонентов
 import { useState } from 'react'
 import { useEffect } from 'react'
 
+//подключение компонентов
 import { Header } from '../../components/header/Header'
 import { Sidebar } from '../../components/sidebar/Sidebar'
 import { Dates } from '../../moduls/dates/Dates'
@@ -10,6 +13,7 @@ import { Events } from '../../moduls/events/Events'
 import { Materials } from '../../moduls/materials/Materials'
 import { Footer } from '../../components/footer/Footer'
 
+//функция отрисовки главной страницы
 function Main() {
 
   useEffect(() => {

@@ -121,6 +121,35 @@
     margin-right: 20px;
 }
 
+.header__row-actions-search{
+    margin-top: 2px;
+}
+
+.header__row-actions-search-closeline{
+    transform: scale(0.7);
+    margin-right: 30px;
+    margin-top: -1px;
+}
+
+.header__row-actions-search-line{
+    margin-top: 2px;
+}
+
+.header__row-actions-search-icon{
+    margin-top: 2px;
+}
+
+.search{
+    border-radius: 10px;
+    padding-left: 5px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
 .burger-close{
 
 }
