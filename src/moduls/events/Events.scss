@@ -110,7 +110,7 @@
     display: none;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
-    max-width: 320px;
+    width: 100%;
 }
 
 @media(max-width: 500px){
