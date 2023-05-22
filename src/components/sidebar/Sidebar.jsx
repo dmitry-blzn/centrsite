@@ -46,7 +46,7 @@ function Sidebar(props) {
                     <img src={require('../../images/sidebar/red/notify.png')} alt="" />
                 </div>
                 <div className="sidebar__row-notify-text text">
-                    <Link className='sidebar__row-main-text1 text1' to={'/news'}>Объявления</Link>
+                    Объявления
                 </div>
             </div>
 

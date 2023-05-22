@@ -43,7 +43,7 @@ function Footer() {
                         <p className='subtext'>Перерыв на обед с 13.00 до 14.00</p>
                     </div>
                     <div className="footer__row-column2-map">
-                        <img src={require('../../images/cart.png')} alt="" />
+                        <iframe className='map' src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae77ba9aa76c650d82213c8b900e9c7d1322890d9b106962e2b247376ae1cb96c&amp;source=constructor" width="489" height="393" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>

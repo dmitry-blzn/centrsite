@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.scss'
+import { Link } from 'react-router-dom';
 
 function Header(props) {
 
@@ -13,7 +14,7 @@ function Header(props) {
                 <div className="header__row-logo">
 
                     <div className="header__row-logo-image">
-                        <img src={require('../../images/logo.png')} alt="" />
+                        <Link to='/'><img src={require('../../images/logo.png')} alt="" /></Link> 
                     </div>
 
                     <div className="header__row-logo-text">
@@ -26,7 +27,7 @@ function Header(props) {
                 <div className="header__row-actions">
 
                     <div className="header__row-actions-vk">
-                        <img src={require('../../images/vk.png')} alt="" />
+                        <a href="https://vk.com/public198278005"><img src={require('../../images/vk.png')} alt="" /></a> 
                     </div>
 
                     <div className="header__row-actions-search">

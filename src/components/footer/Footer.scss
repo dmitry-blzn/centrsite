@@ -104,10 +104,18 @@
     display: none;
 }
 
+.map{
+    border: 2px solid #8A8A8A;
+    width: 489px;
+    height: 393px;
+    border-radius: 10px;
+}
+
 @media(max-width: 500px){
     .footer{
         background-color: #1F1F1F;
         margin-top: 80px;
+        
     }
 
     .footer__row-column1-logo-text{
@@ -154,7 +162,9 @@
     }
 
     .footer__row-column2-map{
-        display: none;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .footer__row-column1-logo-img-adaptive{
@@ -163,5 +173,11 @@
 
     .footer__row-column1-logo-img{
         display: none;
+    }
+
+    .map{
+        border: 2px solid #8A8A8A;
+        width: 100%;
+        border-radius: 10px;
     }
 }

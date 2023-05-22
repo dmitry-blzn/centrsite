@@ -16,7 +16,7 @@ function Center() {
 					<p className='maintext'>Адрес:</p> 
 					<p className='subtext'>г. Белгород, ул. Победы,</p> 
 					<p className='subtext'>85, корп. 12, к.2-22</p> 
-					<p className='subrules'>Положение о центре (утв.08.04.2019)</p> 
+					<a className='subrules' href='https://bsuedu.ru/upload/iblock/183/pol-cgpv.pdf'>Положение о центре (утв.08.04.2019)</a> 
 				</div>
 				<div className="about__column-info-phone">
 					<p className='maintext'>Телефон:</p> 
