@@ -1,6 +1,8 @@
 import React from 'react'
 import './Card.scss'
 
+//Компонент карточки, аналогичный остальным компонентам с постфиксом Card
+//Через props принимает переданные картинку, описание, тип контента и размер, отрисовывает карточку в соответствии с описанными стилями
 function Card(props) {
 
     const {image, title, text, width, height} = props

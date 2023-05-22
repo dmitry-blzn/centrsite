@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.scss'
 
+//компонент подвала без особенностей 
 function Footer() {
   return (
     <div className='footer'>

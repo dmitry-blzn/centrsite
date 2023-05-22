@@ -3,6 +3,8 @@ import './Dates.scss'
 import { Card } from '../../components/card/Card'
 import { AdaptiveCard } from '../../components/adaptivecard/AdaptiveCard'
 
+//Компанонет, отображающий Памятные даты на странице. Используются компоненты-шаблоны Card и AdaptiveCard. Они принимают картинку, описание, тип контента и размер. После этого
+//Происходит отрисовка карточки из их компонентов. 
 function Dates() {
   return (
     <div className='dates'>
