@@ -4,6 +4,14 @@
     margin-left: 334px;
 }
 
+@media(max-width: 500px){
+    .dates{
+        margin-top: 28px;
+        padding-top: 72px;
+        margin-left: 0;
+    }
+}
+
 .dates__column{
     
     display: flex;

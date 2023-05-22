@@ -1,7 +1,10 @@
 import React from 'react'
 import './Header.scss'
 
-function Header() {
+function Header(props) {
+
+    const {setMenu = Function.prototype} = props;
+
   return (
     <div className='header'>
         <div className="header__container">
@@ -68,7 +71,7 @@ function Header() {
 
                     </div>
 
-                    <div className="header__row-actions-menu">
+                    <div className="header__row-actions-menu" onClick={() => setMenu(true)}>
                         <img src={require('../../images/open-burger.png')} alt="" />
                     </div>
 

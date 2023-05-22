@@ -1,5 +1,7 @@
 import React from 'react'
 import './Main.scss'
+import { useState } from 'react'
+import { useEffect } from 'react'
 
 import { Header } from '../../components/header/Header'
 import { Sidebar } from '../../components/sidebar/Sidebar'
@@ -9,13 +11,32 @@ import { Materials } from '../../moduls/materials/Materials'
 import { Footer } from '../../components/footer/Footer'
 
 function Main() {
+
+  useEffect(() => {
+    const currentWidth = window.innerWidth
+
+    setWidth(currentWidth)
+    console.log(width)
+  }, [])
+
+  const [menu, setMenu] = useState(false)
+  const [width, setWidth] = useState(1920)
+
+  
+  const setAdaptiveMenu = (state) => {
+    setMenu(state)
+    console.log(menu)
+  }
+
+  
+
   return (
     <div className='main'>
-        <Header/>
-        <Sidebar/>
+        <Header setMenu={setAdaptiveMenu} menu={menu}/>
+        <Sidebar setMenu={setAdaptiveMenu} menu={menu}/>
         <Dates/>
         <Events/>
-        <Materials/>
+        {!(width <= 500) && <Materials/>}
         <Footer/>
     </div>
   )

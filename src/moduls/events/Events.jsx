@@ -2,6 +2,7 @@ import React from 'react'
 import './Events.scss'
 
 import { EventCard } from '../../components/eventcard/EventCard'
+import { AdaptiveEventCard } from '../../components/adaptiveEventCard/AdaptiveEventCard'
 
 function Events() {
   return (
@@ -39,6 +40,9 @@ function Events() {
                 <EventCard className='eventcard' image={require('../../images/events/firsttime.png')} date='12.04.2023' title='Событие' width='352px' height='206px' text='Время первых'/>
                 <EventCard className='eventcard' image={require('../../images/events/true.png')} date='17.03.2023' title='Событие' width='352px' height='206px' text='Связь поколений. Голос правды.'/>
                 <EventCard className='eventcard' image={require('../../images/events/war.png')} date='02.02.2023' title='Событие' width='352px' height='206px' text='80-летие Сталинградской битвы'/>
+            </div>
+            <div className="events__column-cards-adaptive">
+                <AdaptiveEventCard className='eventcard' image={require('../../images/adaptive/adaptiveEvent.png')} date='20.04.2023' title='Событие' width='352px' height='206px' text='Дни доброго кино'/>
             </div>
         </div>
     </div>

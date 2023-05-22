@@ -11,6 +11,9 @@ function Footer() {
                         <div className="footer__row-column1-logo-img">
                             <img src={require('../../images/biglogo.png')} alt="" />
                         </div>
+                        <div className="footer__row-column1-logo-img-adaptive">
+                            <img src={require('../../images/logo.png')} alt="" />
+                        </div>
                         <div className="footer__row-column1-logo-text">
                             «Центр гражданско-
                             <p>патриотического воспитания</p> 

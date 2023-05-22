@@ -4,6 +4,14 @@
     margin-top: 60px;
 }
 
+
+
+.events__column-cards-adaptive{
+    margin-top: 20px;
+    display: none;
+    flex-wrap: wrap;
+}
+
 .events__column{
     display: flex;
     flex-direction: column;
@@ -103,4 +111,23 @@
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+@media(max-width: 500px){
+    .events{
+        margin-left: 0;
+    }
+    .events__column-cards{
+        margin-top: 20px;
+        display: none;
+        flex-wrap: wrap;
+    }
+    .events__column-cards-adaptive{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .events__column-head-arrows{
+        display: none;
+    }
 }

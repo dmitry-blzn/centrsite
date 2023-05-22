@@ -4,6 +4,13 @@
     margin-top: 60px;
 }
 
+@media(max-width: 500px){
+    .materials{
+        display: none;
+        margin-left: 0;
+    }
+}
+
 .materials__column{
     display: flex;
     flex-direction: column;
