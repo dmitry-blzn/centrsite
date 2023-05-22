@@ -3,38 +3,49 @@
    transition: background-size 4s ease;
    transition-delay: background-size 2s;
    background-position: center;
+   display: flex;
+   flex-direction: column;
+   background-size: 100%;
+   -webkit-transition: all 0.3s ease-in-out;
+   justify-content: end;
 }
 
 .card:hover{
     background-size: 107%;
-    transition:all 0.5s ;
+    
 }
 
-.card__shell{
-    padding-top: 24px;
+.card__shell-card{
+    position: absolute;
+    margin-bottom: 220px;
 }
 
 .card__title{
-    height: 22px;
+    
+    min-height: 22px;
+    min-width: 86px;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 12px;
     line-height: 15.6px;
     padding-top: 3px;
     padding-left: 24px;
-
+    
     background-image: url('../../images/flag.png');
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .card__text{
-    margin-top: 103px;
+
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 26px;
     line-height: 32px;
-    padding-left: 10px;
     padding-right: 10px;
+    justify-self: end;
+    margin-left: 24px;
+    margin-bottom: 24px;
 }

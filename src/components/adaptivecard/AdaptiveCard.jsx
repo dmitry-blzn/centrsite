@@ -10,8 +10,8 @@ function AdaptiveCard(props) {
   return (
     <div className='card-adaptive' style={{backgroundImage: `url(${image})`, backgroundRepeat: 'no-repeat'}}>
         
-        <div className="card__shell">
-            <div className="card__title">
+        <div className="card__shell-adaptive">
+            <div className="card__title-adaptive">
                 {title}
             </div>
         </div>

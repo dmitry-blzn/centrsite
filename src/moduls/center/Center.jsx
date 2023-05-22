@@ -14,8 +14,8 @@ function Center() {
 			<div className="about__column-info">
 				<div className="about__column-info-adress">
 					<p className='maintext'>Адрес:</p> 
-					<p className='subtext'>г. Белгород, ул. Победы,</p> 
-					<p className='subtext'>85, корп. 12, к.2-22</p> 
+					<p className='adress-1 subtext'>г. Белгород, ул. Победы,</p> 
+					<p className='adress-2 subtext'>85, корп. 15, к.2-22</p> 
 					<a className='subrules' href='https://bsuedu.ru/upload/iblock/183/pol-cgpv.pdf'>Положение о центре (утв.08.04.2019)</a> 
 				</div>
 				<div className="about__column-info-phone">
@@ -24,12 +24,12 @@ function Center() {
 				</div>
 				<div className="about__column-info-director">
 					<p className='maintext'>Директор:</p> 
-					<p className='subtext'>Кузнецова Инна Вячеславовна</p> 
+					<p className='adress-1 subtext'>Кузнецова Инна Вячеславовна</p> 
 					<p className='subtext'>E-mail: Kuznetsova_IV@bsu.edu.ru</p> 
 				</div>
 				<div className="about__column-info-times">
 					<p className='maintext'>Режим работы:</p> 
-					<p className='subtext'>Понедельник – пятница с 9.00 до 18.00</p> 
+					<p className='adress-1 subtext'>Понедельник – пятница с 9.00 до 18.00</p> 
 					<p className='subtext'>Перерыв на обед с 13.00 до 14.00</p> 
 				</div>
 			</div>

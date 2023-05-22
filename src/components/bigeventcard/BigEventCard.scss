@@ -6,9 +6,14 @@
     transition-delay: background-size 2s;
     background-position: center;
     margin: 10px;
+    background-size: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
 }
  
  .bigeventcard:hover{
      background-size: 107%;
-     transition:all 0.5s ;
+ }
+
+ .card__shell{
+    padding-top: 24px;
  }

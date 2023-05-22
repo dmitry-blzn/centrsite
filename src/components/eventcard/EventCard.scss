@@ -24,6 +24,7 @@
 .card__info{
     margin-top: 90px;
     margin-left: 22px;
+    margin-bottom: 22px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -32,7 +33,7 @@
 .card__info-date{
     color: #F5F5F5;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     line-height: 18.2px;
 }
@@ -48,7 +49,7 @@
 .card__info-title{
     color: #F5F5F5;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
 }

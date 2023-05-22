@@ -1,13 +1,3 @@
-.card__text-adaptive{
-    margin-top: 158px;
-    color: #FFFFFF;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 32px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
 .card-adaptive{
     min-width: 280px;
@@ -17,6 +7,46 @@
     transition-delay: background-size 2s;
     background-position: center;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex-wrap: wrap
+}
+
+.card__shell-adaptive{
+    background-image: url('../../images/flag.png');
+    background-repeat: no-repeat;
+    
+}
+
+.card__title-adaptive{
+    min-width: 280px;
+    margin-top: 3px;
+    padding-bottom: 0px;
+    margin-bottom: 353px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.card__text-adaptive{
+    
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    margin-left: -280px;
+    max-width: 280px;
+    padding-top: 130px;
 }
  
 

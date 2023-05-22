@@ -6,6 +6,7 @@
     margin-top: -28px;
     position: fixed;
     box-sizing: border-box;
+    z-index: 1000;
 }
 
 .header__container{
@@ -20,6 +21,7 @@
     display: flex;
     height: 100%;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header__row-logo{
@@ -30,6 +32,7 @@
 
     &-image{
         cursor: pointer;
+        margin-left: 35px;
     }
 
     &-text{
@@ -45,7 +48,8 @@
 
 .header__row-actions{
     display: flex;
-    width: 78.2%;
+    margin-right: 0px;
+    
     justify-content:right;
 
     &-vk{
@@ -157,6 +161,7 @@
 .header__row-adaptive{
     display: none;
     justify-content: space-between;
+    z-index: 100000;
 }
 
 @media(max-width: 500px){

@@ -5,11 +5,14 @@ import { useState, useEffect } from 'react';
 
 function Sidebar(props) {
 
+    //получаем функцию изменения состояния меню и состояние меню из родительского компонента
     const {
         setMenu = Function.prototype,
         menu
     } = props;
-    
+
+    //отображаем содержание sidebar-а, при помощи "Link to='...' регулируем переходы по ссылкам" 
+    //регулируем адаптивность при помощи описанного состояния menu 
   return (
     <div className='sidebar'>
         <div className="sidebar__row">

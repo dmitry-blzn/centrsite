@@ -10,7 +10,7 @@ function BigEventCard(props) {
   return (
     <div className='bigeventcard' style={{backgroundImage: `url(${image})`, backgroundRepeat: 'no-repeat', width: '489px', height: '266px'}}>
         
-        <div className="card__shell">
+        <div className="card__shell-event-m">
             <div className="card__title-event">
                 {title}
             </div>

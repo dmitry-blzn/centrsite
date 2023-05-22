@@ -5,10 +5,14 @@ import { useState } from 'react';
 
 function Header(props) {
 
+    //получаем функцию изменения состояния меню из родительского компонента
     const {setMenu = Function.prototype} = props;
 
+    //создаём состояние отображения строки поиска
     const [search, setSearch] = useState(false)
 
+    //отображаем содержание header-а, при помощи "Link to='...' регулируем переходы по ссылкам" 
+    //строку поиска рендерим условно, в зависимости от состояния: const [search, setSearch] = useState(false)
   return (
     <div className='header'>
         <div className="header__container">

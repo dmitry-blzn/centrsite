@@ -9,6 +9,7 @@ a{
     max-width: 234px;
     margin-top: 76px;
     margin-left: 80px;
+    z-index: 100000;
 }
 
 .sidebar__row{
@@ -20,7 +21,7 @@ a{
     display: flex;
     margin-top: 14px;
     margin-left: 30px;
-
+    align-items: center;
     .redicon{
         display: none;
     }
@@ -86,6 +87,7 @@ a{
     display: flex;
     margin-top: 14px;
     margin-left: 30px;
+    align-items: center;
 
     .redicon{
         display: none;
@@ -136,4 +138,14 @@ a{
     .sidebar__row-adaptive{
         display: flex;
     }
+}
+
+.sidebar__row-about-text{
+    margin-left: 11.33px;
+}
+
+.sidebar__row-main-text1{}
+
+.sidebar__row-scient-text{
+    margin-left: 10.18px;
 }
